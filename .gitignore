@@ -1,0 +1,35 @@
+# Virtual environments
+.venv/
+.venv311/
+venv/
+env/
+
+# UV cache & python
+.uv-cache/
+.uv-python/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Large data / replays (too big for git)
+top_replays/
+submission.tar.gz
+*.tar.gz
+*.zip
+
+# IDE & tool artifacts
+.agents/
+.codex/
+.vscode/
+.idea/
+.DS_Store
+
+# Extracted agent analysis (runtime artifacts)
+extracted_agents/
