@@ -1,26 +1,26 @@
 # Orbit Wars
 
-Kaggle 대회용 게임 AI 에이전트. PyTorch 기반 멀티플레이어 전략 봇.
+Game AI agent for a Kaggle competition. PyTorch-based multiplayer strategy bot.
 
-## 에이전트
+## Agents
 
-| 파일 | 설명 |
+| File | Description |
 |---|---|
-| `agent_2p.py` | 2인 플레이용 에이전트 |
-| `agent_mp.py` | 멀티플레이어 에이전트 |
-| `main.py` | 대회 제출 진입점 |
+| `agent_2p.py` | 2-player agent |
+| `agent_mp.py` | Multiplayer agent |
+| `main.py` | Competition submission entry point |
 
-## 실행
+## Run
 
 ```bash
 pip install -r requirements.txt
 python play.py
 ```
 
-## 구조
+## Structure
 
 ```
-orbit_lite/         # 게임 로직 라이브러리
-notebooks/          # 분석 노트북
-scratch/            # 실험 스크립트
+orbit_lite/         # Game logic library
+notebooks/          # Analysis notebooks
+scratch/            # Experimental scripts
 ```
